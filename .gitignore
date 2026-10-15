@@ -1,0 +1,59 @@
+# ==================== IntelliJ IDEA ====================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# 如果想让团队共享部分配置，可以保留以下文件：
+# !.idea/codeStyles/
+# !.idea/inspectionProfiles/
+# !.idea/vcs.xml
+
+# ==================== Windows ====================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# ==================== Java / JVM 项目（按需保留） ====================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+build/
+.gradle/
+!.gradle/wrapper/gradle-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+*.log
+
+# ==================== 日志与临时文件 ====================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+*.swp
+*.swo
+*~
+
+# ==================== 环境与密钥 ====================
+.env
+.env.local
+*.pem
+*.key
+secrets.yml
+
+# ==================== 数据库 ====================
+*.sqlite
+*.sqlite3
+*.db
